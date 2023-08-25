@@ -1,18 +1,3 @@
-class TanzaniaRegion {
-  final String name;
-  final String capital;
-
-  TanzaniaRegion({required this.name, required this.capital});
-}
-
-List<TanzaniaRegion> tanzaniaRegions = [
-  TanzaniaRegion(name: 'Arusha', capital: 'Arusha'),
-  TanzaniaRegion(name: 'Kagera', capital: 'Bukoba'),
-  TanzaniaRegion(name: 'Kilimanjaro', capital: 'Moshi'),
-  TanzaniaRegion(name: 'Mara', capital: 'Musoma'),
-  // Add more regions here
-];
-
 final String jsonData = '''
     {
       "data": [
