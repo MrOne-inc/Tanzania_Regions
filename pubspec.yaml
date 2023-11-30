@@ -1,7 +1,10 @@
 name: tanzania_regions
-description: A new Flutter package project.
+description: A Flutter package for both android and iOS which provides Regions and its districts of Tanzania.
 version: 0.0.1
 homepage:
+
+  homepage: https://github.com/parth58/Social-SignIn-Buttons
+
 
 environment:
   sdk: '>=3.0.5 <4.0.0'

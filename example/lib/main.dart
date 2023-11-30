@@ -155,31 +155,32 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      color: Colors.blue,
-      debugShowCheckedModeBanner: true,
-      title: 'Region and District Dropdowns',
+      debugShowCheckedModeBanner: false,
+      title: 'Tanzania Regions',
       home: Scaffold(
         appBar: AppBar(
-          title: Text('TZ-Regions'),
+          backgroundColor: Colors.yellowAccent,
+          title: const Text('TZ-Regions', style: TextStyle(color: Colors.black),),
         ),
         body: Column(
             children: [
-              Card(
-                child: TextField(
-                  textCapitalization:
-                  TextCapitalization.characters,
-                  textInputAction: TextInputAction.next,
-                  onChanged: (val) {},
-                  style: const TextStyle(
-                      color: Colors.black,
-                      fontSize: 14.5),
-                  decoration: InputDecoration(
-                    labelText: "Mobile",
-                  ),
-                ),
-              ),
-              Expanded(child:
-              TanzaniaRegions(Colors.blue, 'Region', 0)
+              // Expanded(child:
+              // Center(
+              //   child: TextField(
+              //     textCapitalization:
+              //     TextCapitalization.characters,
+              //     textInputAction: TextInputAction.next,
+              //     onChanged: (val) {},
+              //     style: const TextStyle(
+              //         color: Colors.black,
+              //         fontSize: 14.5),
+              //     decoration: InputDecoration(
+              //       labelText: "Mobile",
+              //     ),
+              //   ),
+              // )),
+              Expanded(
+                  child: TanzaniaRegions(Colors.blueGrey, 'Region', 0)
               )
           ]
       )
