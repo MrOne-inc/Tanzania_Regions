@@ -1,3 +1,3 @@
-## 0.0.1
+## 0.0.2 - 2/12/2023
 
-* TODO: Describe initial release.
+* Second release. Provides access to Regions and Districts.

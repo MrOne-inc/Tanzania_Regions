@@ -1,6 +1,6 @@
 name: tanzania_regions
 description: A Flutter package for both android and iOS which provides Regions and its Districts of Tanzania
-version: 0.0.1
+version: 0.0.2
 homepage: https://github.com/MrOne-inc/Tanzania_Regions
 
 environment:
